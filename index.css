@@ -90,7 +90,7 @@ body{
     font-weight: bold;
 }
 
-.para button{
+.para a{
     font-size: 18px;
     color: white;
     background-color: rgb(24, 23, 23) ;   
@@ -100,7 +100,7 @@ body{
     cursor: pointer;
 }
 
-.para button:hover{
+.para a:hover{
     text-decoration: underline;
     color:white;
     background-color:grey;
