@@ -1,0 +1,119 @@
+body{
+    background-image: url('bg.jpg') ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 10;    
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.main{
+    display: flex;
+    background-color: black;
+    width:auto;
+    
+}
+.left{
+    display: flex;
+    left: 40px;
+    top:30px;
+    
+}
+
+.left img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    
+    
+}
+.left div{
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 85px;
+    font-weight: bolder;
+    color: wheat;
+    font-style: italic;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 700px;
+    font-weight: bold;
+}
+.navbar li{
+    display: flex;
+    font-size:20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+    
+}
+.navbar li a:hover, .navbar li a.acive{
+    text-decoration:underline;
+    color:grey;
+}
+
+.flex{
+    text-align: center;
+    justify-content: center;
+    
+}
+.container{
+    
+    margin: 100px 10px;
+    width:100%;
+    font-size: 2.5rem;    
+    
+    
+}
+
+.para{
+    height: 150px;
+    margin: 0px 25px;
+    right: 30%;
+    font-size: 20px;
+    
+}
+
+.para p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.para button{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(24, 23, 23) ;   
+    padding: 6px 20px;
+    border: 2px solid rgb(53, 48, 48);
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.para button:hover{
+    text-decoration: underline;
+    color:white;
+    background-color:grey;
+    
+}
+
+#info{
+    margin-top: 250px;
+    height: 150px;
+	background-color: black;
+    color:white;
+    padding: 4% 25%;
+    text-align: center;
+    font-size: 25px;
+}
+
